@@ -8,15 +8,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@frontend-clean-architecture/shopify-client": "*",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "shopify-buy": "^2.15.1",
-    "@frontend-clean-architecture/shopify-client": "*"
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
-    "@types/shopify-buy": "^2.10.10",
     "@vitejs/plugin-react": "^1.3.0",
     "typescript": "^4.6.3",
     "vite": "^2.9.7"
