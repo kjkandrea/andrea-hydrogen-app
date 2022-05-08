@@ -35,7 +35,7 @@ export default function Layout({children, hero}) {
     <LocalizationProvider preload="*">
       <div className="absolute top-0 left-0">
         <a
-          href="#mainContent"
+          href="hydrogen-app/src/components/Layout.server#mainContent"
           className="p-4 focus:block sr-only focus:not-sr-only"
         >
           Skip to content

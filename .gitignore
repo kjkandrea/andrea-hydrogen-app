@@ -32,7 +32,7 @@ coverage
 build/Release
 
 # Dependency directories
-node_modules/
+hydrogen-app/node_modules/
 jspm_packages/
 
 # TypeScript cache

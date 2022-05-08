@@ -166,7 +166,7 @@ export default function ProductDetails({product}) {
               <ProductOptions />
               {sizeChartMetafield?.value && (
                 <a
-                  href="#size-chart"
+                  href="hydrogen-app/src/components/ProductDetails.client#size-chart"
                   className="block underline text-gray-500 text-sm tracking-wide my-4"
                 >
                   Size Chart
