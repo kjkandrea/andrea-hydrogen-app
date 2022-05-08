@@ -3,7 +3,7 @@ import { useRoutes, BrowserRouter as Router } from 'react-router-dom';
 
 const AppRoutes = () => useRoutes(rroutes);
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Router>
@@ -12,5 +12,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
