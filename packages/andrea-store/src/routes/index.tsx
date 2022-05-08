@@ -1,15 +1,15 @@
-import { Collections } from '../components/views/collections/Collections';
+import { CollectionsController } from '../components/views/collections/CollectionsController';
 
 export default [
   {
     path: '/',
     children: [
       // 메인
-      { index: true, element: <Collections /> },
+      { index: true, element: <CollectionsController collection="ALL" /> },
     ],
   },
   {
-    path: '/abc',
-    element: <Collections />,
+    path: '/collections/all',
+    element: <CollectionsController collection="ALL" />,
   },
 ];
