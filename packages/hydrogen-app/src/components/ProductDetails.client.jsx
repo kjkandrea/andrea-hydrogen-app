@@ -22,10 +22,7 @@ function AddToCartMarkup() {
 
   return (
     <div className="space-y-2 mb-8">
-      <AddToCartButton
-        className={BUTTON_PRIMARY_CLASSES}
-        disabled={isOutOfStock}
-      >
+      <AddToCartButton className={BUTTON_PRIMARY_CLASSES}>
         {isOutOfStock ? 'Out of stock' : 'Add to bag'}
       </AddToCartButton>
       {isOutOfStock ? (
