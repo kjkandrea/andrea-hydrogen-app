@@ -17,8 +17,9 @@ import {Dialog} from '@headlessui/react';
 import {useCartUI} from './CartUIProvider.client';
 import CartIconWithItems from './CartIconWithItems.client';
 import {BUTTON_PRIMARY_CLASSES} from './Button.client';
-import { sharedVariable } from '@test/shared'
 
+/* shared test */
+import {sharedVariable} from '@test/shared';
 console.log(sharedVariable);
 
 /**
