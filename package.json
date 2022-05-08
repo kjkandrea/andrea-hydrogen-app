@@ -1,5 +1,9 @@
 {
   "private": true,
   "name": "frontend-clean-architecture",
-  "workspaces": ["packages/shared/shopify-core", "packages/hydrogen-app"]
+  "workspaces": [
+    "packages/core/infrastructure/http/shopify-client",
+    "packages/hydrogen-app",
+    "packages/andrea-store"
+  ]
 }

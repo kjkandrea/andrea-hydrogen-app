@@ -18,10 +18,6 @@ import {useCartUI} from './CartUIProvider.client';
 import CartIconWithItems from './CartIconWithItems.client';
 import {BUTTON_PRIMARY_CLASSES} from './Button.client';
 
-/* shared test */
-import {sharedVariable} from '@frontend-clean-architecture/shopify-core';
-console.log(sharedVariable);
-
 /**
  * A client component that contains the merchandise that a customer intends to purchase, and the estimated cost associated with the cart
  */

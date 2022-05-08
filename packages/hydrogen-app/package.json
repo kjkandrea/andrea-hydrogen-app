@@ -39,7 +39,6 @@
     "@shopify/cli-hydrogen": "2.0.0"
   },
   "dependencies": {
-    "@frontend-clean-architecture/shopify-core": "*",
     "@headlessui/react": "^1.5.0",
     "@shopify/hydrogen": "^0.17.3",
     "body-parser": "^1.20.0",
