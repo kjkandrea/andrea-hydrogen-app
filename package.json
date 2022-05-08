@@ -1,4 +1,5 @@
 {
   "private": true,
-  "workspaces": ["shared", "hydrogen-app"]
+  "name": "frontend-clean-architecture",
+  "workspaces": ["packages/shared/shopify-core", "packages/hydrogen-app"]
 }

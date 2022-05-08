@@ -1,0 +1,5 @@
+{
+  "name": "@frontend-clean-architecture/shopify-core",
+  "version": "0.0.0",
+  "main": "index.ts"
+}
