@@ -30,7 +30,7 @@ export async function startHydrogenServer() {
 async function createNodeServer() {
   const {createServer} = await import('../dist/server');
   const app = (await createServer()).app;
-  const server = app.listen(0) as Server;
+  const server = (app as any).listen(0) as Server;
   const port: number = await new Promise((resolve) => {
     server.on('listening', () => {
       resolve(getPortFromAddress(server.address()));
